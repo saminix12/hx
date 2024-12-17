@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محصولات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        .product {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 0;
+        }
+        .product p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>لیست محصولات</h1>
+    <div class="product">
+        <h3>محصول ۱</h3>
+        <p>قیمت: ۱۰۰,۰۰۰ تومان</p>
+        <p>توضیحات: این یک محصول عالی است.</p>
+    </div>
+    <div class="product">
+        <h3>محصول ۲</h3>
+        <p>قیمت: ۲۰۰,۰۰۰ تومان</p>
+        <p>توضیحات: این محصول بی‌نظیر است.</p>
+    </div>
+    <div class="product">
+        <h3>محصول ۳</h3>
+        <p>قیمت: ۳۰۰,۰۰۰ تومان</p>
+        <p>توضیحات: یک محصول فوق‌العاده.</p>
+    </div>
+</body>
+</html>
